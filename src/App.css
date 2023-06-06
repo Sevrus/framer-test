@@ -1,0 +1,24 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.box-container {
+    padding-bottom: 5rem;
+}
+
+.box {
+    margin-left: 2rem;
+    width: 15rem;
+    height: 15rem;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
