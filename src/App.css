@@ -8,17 +8,39 @@
     text-decoration: none;
 }
 
-.box-container {
-    padding-bottom: 5rem;
+body {
+    width: 100%;
+    height: 100vh;
 }
 
-.box {
-    margin-left: 2rem;
-    width: 15rem;
-    height: 15rem;
-    background-color: aqua;
+.app {
+    position: relative;
+    width: 100%;
+    height: 100vh;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
 }
+
+section {
+    width: 70%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*.box-container {*/
+/*    padding-bottom: 5rem;*/
+/*}*/
+
+/*.box {*/
+/*    margin-left: 2rem;*/
+/*    width: 15rem;*/
+/*    height: 15rem;*/
+/*    background-color: aqua;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*}*/
